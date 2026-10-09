@@ -1,0 +1,13 @@
+{
+  "filename": "herodotus-rawlinson.txt",
+  "format": "text",
+  "encoding": "ascii",
+  "size_bytes": 1496601,
+  "sha256": "ef4c270ac327f310e667cabf736ab75c479aee346163239b8b21759479ad6052",
+  "character_count": 1496601,
+  "line_count": 3719,
+  "paragraph_count": 1856,
+  "vocabulary": "\n !\"'(),-./0123456789:;?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+  "vocabulary_size": 76,
+  "notes": "Built by clean.py from the pinned Wikisource revisions in metadata.json, which it verifies by checksum; `python3 clean.py --check` reproduces this file byte for byte. Book and chapter headings and numbers dropped, a paragraph per line (verse included), paragraphs separated by a blank line and books by two. No train/test split: consumers split it (indrajala-ml: the first 90% for training, the last 10% held out)."
+}

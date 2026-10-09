@@ -1,0 +1,63 @@
+{
+  "name": "herodotus-rawlinson",
+  "description": "Herodotus' Histories in George Rawlinson's translation (the 1910 text), all nine books, cleaned to ASCII plain text for character-level language modelling.",
+  "source": {
+    "name": "Wikisource, The History of Herodotus (Rawlinson), Books 1-9",
+    "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Rawlinson)",
+    "revisions": {
+      "Book 1": {
+        "revision": 10761576,
+        "url": "https://en.wikisource.org/w/index.php?title=The_History_of_Herodotus_(Rawlinson)/Book_1&oldid=10761576",
+        "sha256_of_raw_wikitext": "a4b3226181f13aabb2e26b2a5228700e3d7139ea9afa295900f201b071b18718"
+      },
+      "Book 2": {
+        "revision": 7044570,
+        "url": "https://en.wikisource.org/w/index.php?title=The_History_of_Herodotus_(Rawlinson)/Book_2&oldid=7044570",
+        "sha256_of_raw_wikitext": "926a234666db3dd04bcca8dba94c8c1cbef73b2cfb64f71809439720df3be9ed"
+      },
+      "Book 3": {
+        "revision": 15467572,
+        "url": "https://en.wikisource.org/w/index.php?title=The_History_of_Herodotus_(Rawlinson)/Book_3&oldid=15467572",
+        "sha256_of_raw_wikitext": "1c5b18f3c8358e4d84686f4f959d2b2e1b9542b06ffe9e8e45be6963509cb90c"
+      },
+      "Book 4": {
+        "revision": 6064815,
+        "url": "https://en.wikisource.org/w/index.php?title=The_History_of_Herodotus_(Rawlinson)/Book_4&oldid=6064815",
+        "sha256_of_raw_wikitext": "7109432bfe6c58b5b0bd48ef735c2a9dc384b1937bc0ae52f21ff51c78e3667d"
+      },
+      "Book 5": {
+        "revision": 6173895,
+        "url": "https://en.wikisource.org/w/index.php?title=The_History_of_Herodotus_(Rawlinson)/Book_5&oldid=6173895",
+        "sha256_of_raw_wikitext": "2fec868ad1b3a36344747e115563e98f66d7fa6bf11cb48a22074be89264d111"
+      },
+      "Book 6": {
+        "revision": 6173902,
+        "url": "https://en.wikisource.org/w/index.php?title=The_History_of_Herodotus_(Rawlinson)/Book_6&oldid=6173902",
+        "sha256_of_raw_wikitext": "bca3a58a4a979cf48ca8b3d3a3ebc9eb3f46a2799c01a2782adfd9daa8df4ebf"
+      },
+      "Book 7": {
+        "revision": 9417761,
+        "url": "https://en.wikisource.org/w/index.php?title=The_History_of_Herodotus_(Rawlinson)/Book_7&oldid=9417761",
+        "sha256_of_raw_wikitext": "a38fe73d2fd9646ed7addc918b2886fe9e5af038a0945734d099855ff14c7c36"
+      },
+      "Book 8": {
+        "revision": 9417744,
+        "url": "https://en.wikisource.org/w/index.php?title=The_History_of_Herodotus_(Rawlinson)/Book_8&oldid=9417744",
+        "sha256_of_raw_wikitext": "2d8fe6ecfe881e1595b702393fd1d5f81305fd47d28c8452f16c671f52a2aea8"
+      },
+      "Book 9": {
+        "revision": 6173924,
+        "url": "https://en.wikisource.org/w/index.php?title=The_History_of_Herodotus_(Rawlinson)/Book_9&oldid=6173924",
+        "sha256_of_raw_wikitext": "a0959d761cbfc7c74e5e441f19ff963c1020ee59096bd6a97416b304b46396b5"
+      }
+    },
+    "license": "Public domain: Herodotus (5th century BC) and Rawlinson's translation (Rawlinson died 1902; first published 1858-60, this text 1910). Wikisource's transcription is published under CC BY-SA 4.0; the cleaned text keeps only the public-domain words, none of the editors' links, images or markup."
+  },
+  "version": "2026-10-09",
+  "maintainer": "davidbarkhuizen",
+  "format": "plain text, ASCII, a paragraph per line",
+  "files": [
+    "data/herodotus-rawlinson.txt"
+  ],
+  "built_by": "clean.py"
+}
